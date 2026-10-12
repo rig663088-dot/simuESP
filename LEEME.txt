@@ -1,0 +1,13 @@
+SimuESP Studio - proyecto Android (WebView)
+
+OPCION A - Android Studio
+1. Abre Android Studio > Open > selecciona esta carpeta.
+2. Espera la sincronizacion de Gradle.
+3. Build > Build APK(s). Sale en app/build/outputs/apk/debug/app-debug.apk
+
+OPCION B - Sin instalar nada (GitHub Actions)
+1. Crea un repositorio en GitHub y sube el contenido de esta carpeta.
+2. Pestana Actions > "Build APK" > Run workflow.
+3. Descarga el artefacto "SimuESP-apk" (contiene app-debug.apk).
+
+Para actualizar la app: reemplaza app/src/main/assets/index.html
